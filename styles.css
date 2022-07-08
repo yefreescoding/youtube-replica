@@ -3,6 +3,17 @@
   margin-right: 12px;
 }
 
+/*Video by Youtube creator Anna Lenks*/
 .thumbnail-anna {
   width: 300px;
+  display: block;
 }
+
+.video-title-anna {
+  width: 300px;
+}
+
+.video-creator, .video-stats {
+  
+}
+ 
