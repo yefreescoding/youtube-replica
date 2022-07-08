@@ -5,6 +5,13 @@
 }
 
 /*Video by Youtube creator Anna Lenks*/
+#video-preview-anna {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
 .thumbnail-anna {
   width: 300px;
   display: block;
@@ -14,9 +21,21 @@
   width: 300px;
 }
 
-.video-preview-anna {
+
+/*Video by Youtube creator Hannah Elise*/
+#video-preview-hanna {
   width: 300px;
   display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+} 
+
+.thumbnail-hanna {
+  width: 300px;
+  display: block;
 }
 
- 
+.video-title-hanna {
+  width: 300px;
+}
+
