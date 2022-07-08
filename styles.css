@@ -1,6 +1,7 @@
 .main-search-bar {
   font-size: 20px;
   margin-right: 12px;
+  display: block;
 }
 
 /*Video by Youtube creator Anna Lenks*/
@@ -13,7 +14,9 @@
   width: 300px;
 }
 
-.video-creator, .video-stats {
-  
+.video-preview-anna {
+  width: 300px;
+  display: inline-block;
 }
+
  
