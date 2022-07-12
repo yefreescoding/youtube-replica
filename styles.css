@@ -1,3 +1,9 @@
+p {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+ }
+
 .main-search-bar {
   font-size: 20px;
   margin-right: 12px;
@@ -12,15 +18,49 @@
   margin-right: 20px;
 }
 
-.thumbnail-anna {
+.thumbnail-row {
+  margin-bottom: 20px;
+}
+
+.thumbnail {
   width: 300px;
   display: block;
 }
 
-.video-title-anna {
-  width: 300px;
+.channel-picture-div {
+  display: inline-block;
+  width: 50px ;
+  margin-right: 10px;
+  vertical-align: top;
 }
 
+.video-info-div {
+  display: inline-block;
+  width: 200px;
+}
+
+.profile-pic {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 50px;
+  }
+
+.video-title {
+  margin-top: 0%;
+  margin-bottom: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.video-creator,
+.video-stats {
+  margin-top: 4px;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 0;
+}
 
 /*Video by Youtube creator Hannah Elise*/
 #video-preview-hanna {
@@ -29,13 +69,3 @@
   vertical-align: top;
   margin-right: 20px;
 } 
-
-.thumbnail-hanna {
-  width: 300px;
-  display: block;
-}
-
-.video-title-hanna {
-  width: 300px;
-}
-
