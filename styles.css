@@ -11,11 +11,12 @@ p {
 }
 
 /*Video by Youtube creator Anna Lenks*/
-#video-preview-anna {
+#video-preview {
   width: 300px;
   display: inline-block;
   vertical-align: top;
   margin-right: 20px;
+  margin-bottom: 80px;
 }
 
 .thumbnail-row {
@@ -48,7 +49,7 @@ p {
 
 .video-title {
   margin-top: 0%;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
   font-size: 16px;
   font-weight: 500;
   line-height: 25px;
@@ -62,10 +63,3 @@ p {
   margin-bottom: 0;
 }
 
-/*Video by Youtube creator Hannah Elise*/
-#video-preview-hanna {
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 20px;
-} 
