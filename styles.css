@@ -11,12 +11,12 @@ p {
 }
 
 /*Video by Youtube creator Anna Lenks*/
-#video-preview {
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 20px;
-  margin-bottom: 80px;
+#video-body-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+
 }
 
 .thumbnail-row {
@@ -24,14 +24,13 @@ p {
 }
 
 .thumbnail {
-  width: 300px;
-  display: block;
+  width: 100% ;
 }
 
 .video-info-grid {
   display: grid;
   grid-template-columns: 58px 1fr;
-}
+} 
 
 .profile-pic {
   width: 45px;
